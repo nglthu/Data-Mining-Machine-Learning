@@ -1,4 +1,4 @@
-# neuralNetwork
+# neural Network
 
 Build and train a neural network to recognize letters of the alphabet (A-H) and numbers (0-9) based upon their design using a seven segment display where each segment of the display is one input into the neural network.
 
@@ -10,3 +10,9 @@ pattern7segment.pat
 
 ![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/5INPUTS.png)
 
+# Decision Tree
+
+## Produce a decision tree for training wine type
+## Result
+
+![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/decisiontree.png)
