@@ -8,5 +8,5 @@ pattern7segment.pat
 
 ## Neural network designed to solve the recognition problem
 
-![alt text](https://github.com/nglthu/neuralNetwork/master/img/5INPUTS.png)
+![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/5INPUTS.png)
 
