@@ -16,3 +16,5 @@ pattern7segment.pat
 ## Result
 
 ![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/decisiontree.png)
+
+# Parameter Tuning
