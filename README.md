@@ -19,3 +19,8 @@ pattern7segment.pat
 
 # Parameter Tuning
 [Link](https://github.com/nglthu/DataMiningMachineLearning/blob/master/parameterTuning.R)
+
+
+# The law of large numbers and the central limit theorem 
+[Info](https://github.com/nglthu/DataMiningMachineLearning/wiki/The-law-of-large-numbers-and-the-central-limit-theorem)
+[Test](https://github.com/nglthu/DataMiningMachineLearning/blob/master/CLT/lawOfLargeNumber.R)
