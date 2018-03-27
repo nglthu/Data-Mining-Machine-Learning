@@ -8,13 +8,14 @@ pattern7segment.pat
 
 ## Neural network designed to solve the recognition problem
 
-![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/5INPUTS.png)
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/img/5INPUTS.png)
 
 # Decision Tree
 
 ## Produce a decision tree for training wine type
 ## Result
 
-![alt text](https://github.com/nglthu/neuralNetwork/blob/master/img/decisiontree.png)
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/img/decisiontree.png)
 
 # Parameter Tuning
+[Link](https://github.com/nglthu/DataMiningMachineLearning/blob/master/parameterTuning.R)
