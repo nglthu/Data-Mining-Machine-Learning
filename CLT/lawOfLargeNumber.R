@@ -38,3 +38,9 @@ var(uniform.1000)
 # [1] 0.003343146
 # > var(uniform.1000)
 # [1] 0.0003319267
+
+# plot
+n <- floor(runif(1000,2,4))
+t <- table(n)
+barplot(t)
+plot(t)

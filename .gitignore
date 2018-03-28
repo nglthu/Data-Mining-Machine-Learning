@@ -28,6 +28,7 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+ 
 
 # Thumbnails
 ._*
@@ -50,3 +51,7 @@ Temporary Items
 .doc
 .pdf
 .Rproj.user
+# Rhistory
+.Rhistory
+.RData
+
