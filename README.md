@@ -44,6 +44,6 @@ pattern7segment.pat
 
 [Test](https://github.com/nglthu/DataMiningMachineLearning/blob/master/CLT/lawOfLargeNumber.R)
 
-# Unbanlanced data
+# Unbalanced data
 
 [Test](https://github.com/nglthu/DataMiningMachineLearning/blob/master/resampleFilter/resampleFilter.R)
