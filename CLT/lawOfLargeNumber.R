@@ -44,3 +44,5 @@ n <- floor(runif(1000,2,4))
 t <- table(n)
 barplot(t)
 plot(t)
+
+#Lab 3

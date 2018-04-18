@@ -3,7 +3,6 @@ library("RWeka", lib.loc="~/Library/R/3.4/library")
 library("RWekajars", lib.loc="~/Library/R/3.4/library")
 library("rJava", lib.loc="~/Library/R/3.4/library")
 # Data
-TraindataSecom<-read.arff("/Data/SourceCode/DataMiningMachineLearning/resampleFilter/data/SecomTrain.arff")
 colnames(TraindataSecom)[colnames(TraindataSecom)=="591"] <- "class"  
 # set the target attribute name to "class" in the training file
 TestdataSecom<-read.arff("/Data/SourceCode/DataMiningMachineLearning/resampleFilter/data/SecomTest.arff")
