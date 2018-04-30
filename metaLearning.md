@@ -39,7 +39,7 @@ Noted:
 ```
 ### Boosting
 
-+ Select Meta option of Boosting from the classify tab in Weka 
++ Select Meta option of *AdaBoostM1* from the classify tab in Weka 
 + select J48 as the base learner 
 (note that the default base learner is the REP tree method). 
 + change REP tree to J48
