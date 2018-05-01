@@ -63,7 +63,13 @@ Noted:
 ```
 #### Drawbacks
 + Reduce variance from models that are might be very accurate, but only on the data they were trained on &rightarrow;overfitting.
++ Each model run independently then aggregate the outputs at the end without preference to any model
+
 ### Boosting
+A group of algorithms that utilize weighted averages to make weak learners into stronger learners.
+
+Unlike bagging, Boosting is all about “teamwork”. Each model that runs, dictates what features the next model will focus on.
+
 #### Algorithms
 
 Assign equal weight to each training instance
