@@ -97,7 +97,7 @@ labor-neg-data|(100)   85.67|87.17
 Glass|(100)   73.50	|75.15 
 
 
-![TestOuput](/DataMiningMachineLearning/meta-learning/results/testOuput.png)
+![TestOuput](https://github.com/nglthu/DataMiningMachineLearning/blob/master/meta-learning/results/testOuput.png)
 
 ## Vote meta-learner
 
