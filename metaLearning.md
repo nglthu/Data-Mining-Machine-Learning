@@ -44,6 +44,14 @@ Noted:
 (note that the default base learner is the REP tree method). 
 + change REP tree to J48
 
+### Test Result
+
+**Dataset**|**J48 Accuracy**|**Bagging Accuracy (J48)**|**Boosting Accuracy (J48)**
+:-----:|:-----:|:-----:|:-----:|
+Labor|73.6842 %|85.9649 %|89.4737 %|
+:-----:|:-----:|:-----:|:-----:|
+Glass|66.8224 %	|74.2991 %|74.2991 %|
+
 
 ## Vote meta-learner
 
