@@ -109,3 +109,9 @@ Glass|(100)   73.50	|75.15
 ```
 Noted: The Vote meta-learner combines the output of two or more classifier models by choosing one of five voting rules. 
 ```
+### Tuning paramters
+To get better results:
+
+1. Bagsize Percent
+2. Number Interaction
+3. Out of bag eror
