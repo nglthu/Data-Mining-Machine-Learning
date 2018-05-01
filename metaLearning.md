@@ -22,6 +22,8 @@ Noted: Meta tab
 
 ### Bagging (Bootstrap aggregating)
 
+"Bagging predictors is a method for generating multiple versions of a predictor and using these to get an aggregated predictor.”
+
 #### Algorithms
 1. Let n be the number of instances in the training data
 2. For each of t iterations:
