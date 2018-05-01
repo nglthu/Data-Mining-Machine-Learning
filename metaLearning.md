@@ -60,15 +60,15 @@ Glass|66.8224 %	|74.2991 %|74.2991 %|
 
 + Results:
 
-Dataset                   (1) meta.Bag | (2) meta.
---------------------------------------------------
-labor-neg-data           (100)   85.67 |   87.17  
-Glass                    (100)   73.50 |   75.15  
---------------------------------------------------
-                               (v/ /*) |   (0/2/0)
+**Dataset**|**(1) meta.Bag**|**(2) meta.**|
+:-----:|:-----:|:-----:|
+labor-neg-data|(100)   85.67|87.17 
+||||
+Glass|(100)   73.50	|75.15 
 
 
 [TestOuput](/DataMiningMachineLearning/meta-learning/results/testOuput.png)
+
 ## Vote meta-learner
 
 ### Steps
