@@ -51,7 +51,7 @@ Noted:
 **Dataset**|**J48 Accuracy**|**Bagging Accuracy (J48)**|**Boosting Accuracy (J48)**
 :-----:|:-----:|:-----:|:-----:|
 Labor|73.6842 %|85.9649 %|89.4737 %|
-:-----:|:-----:|:-----:|:-----:|
+||||
 Glass|66.8224 %	|74.2991 %|74.2991 %|
 
 #### Experimenter
@@ -67,7 +67,7 @@ labor-neg-data|(100)   85.67|87.17
 Glass|(100)   73.50	|75.15 
 
 
-[TestOuput](/DataMiningMachineLearning/meta-learning/results/testOuput.png)
+![TestOuput](/DataMiningMachineLearning/meta-learning/results/testOuput.png)
 
 ## Vote meta-learner
 
