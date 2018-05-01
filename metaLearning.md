@@ -58,7 +58,11 @@ Noted:
 
 + specify J48 as the base learner from the screen that appears 
 (use the “Choose” button from the new screen).
+
+
 ```
+#### Drawbacks
++ Reduce variance from models that are might be very accurate, but only on the data they were trained on &rightarrow;overfitting.
 ### Boosting
 #### Algorithms
 
