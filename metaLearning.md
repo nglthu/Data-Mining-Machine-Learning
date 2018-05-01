@@ -20,7 +20,20 @@ The mixture of experts: combining several different models.
 
 Noted: Meta tab
 
-### Bagging
+### Bagging (Bootstrap aggregating)
+
+#### Algorithms
+1. Let n be the number of instances in the training data
+2. For each of t iterations:
++Sample n instances with replacement from training data
++Apply the learning algorithm to the sample
++Store the resulting model
++Classification
+3. For each of the t models:
++Predict class of instance using model
++Return class that has been predicted most often
+
+#### Performance on Weka
 
 + Select Meta option of Bagging from the classify tab in Weka 
 + select J48 as the base learner 
@@ -38,7 +51,24 @@ Noted:
 (use the “Choose” button from the new screen).
 ```
 ### Boosting
+#### Algorithms
 
+Assign equal weight to each training instance
+1. For each of t iterations:
++ Apply learning algorithm to weighted dataset and store resulting model
++ Compute error e of model on weighted dataset and store error
+    If e=0 or e>=0.5 &rightarrow;Terminate model generation
+2. For each instance in dataset:
+    If instance classified correctly by model: &rightarrow;
+            + Multiply weight of instance by e/(1-e)
+            + Normalize weight of all instances
+            + Classification
+            + Assign weight of zero to all classes
+3. For each of the t (or less) models:
+            + Add –log(e/(1-e)) to weight of class predicted by model
+            + Return class with highest weight
+
+#### Performance on Weka
 + Select Meta option of *AdaBoostM1* from the classify tab in Weka 
 + select J48 as the base learner 
 (note that the default base learner is the REP tree method). 
