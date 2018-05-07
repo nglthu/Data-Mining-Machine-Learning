@@ -49,3 +49,9 @@ Best rules found:
 
 
 ```
+
+## Experimental 2
+
+J48
+
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/associateRuleMining/treeView_J48.png)
