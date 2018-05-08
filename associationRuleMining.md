@@ -12,6 +12,8 @@ X&rightarrow;Y
 
 &rightarrow; Lift = Support / (Support(X)xSupport(Y)) 
 
+Lift(R) >1 is occuring with a greater than random chance when X is present
+
 ## Experimental 1
 
 + Data: weather.nominal.arff 
