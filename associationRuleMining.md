@@ -5,9 +5,13 @@
 
 Rule:
 X&rightarrow;Y
+
 &rightarrow; Support = frq(X,Y)/N
+
 &rightarrow; Confidence = frq(X,Y) / frq(X)
+
 &rightarrow; Lift = Support / (Support(X)xSupport(Y)) 
+
 ## Experimental 1
 
 + Data: weather.nominal.arff 
