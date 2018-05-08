@@ -49,7 +49,17 @@ Best rules found:
 
 
 ```
++ Editing metrics of Apriori
 
+* metric &rightarrow; Lift, 
+* adjust the minimum metric value &rightarrow; 2.0 and 
+* set the lowerBoundMinSupport &rightarrow; 0.05.  
+```
+Lift =prob(Y|X)/Supp(Y). 
+
+Its emphasis is on rules with high confidence and low support items. 
+The rules produced are much more diverse in nature than the ones with confidence as the metric.
+```
 ## Experimental 2
 
 J48
