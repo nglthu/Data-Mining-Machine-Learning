@@ -32,3 +32,7 @@ where, ‘ci’ represents the number of data points in ith cluster.
 6) If no data point was reassigned then stop, otherwise repeat from step 3).
 
 ```
++ Result
+* the features identify which feature is able to best separate cluster 0 from cluster 1 : Hair
+* Cluster figure
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/clusteringKmeans/hair.png)
