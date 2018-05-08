@@ -1,4 +1,13 @@
 # Association Rule Mining
+## Alogirthm
++ Find all sets of items (itemsets) that have support greater than the minimum support and then using the large itemsets to generate the desired rules that have confidence greater than the minimum confidence. 
++ The lift of a rule is the ratio of the observed support to that expected if X and Y were independent.  
+
+Rule:
+X&rightarrow;Y
+&rightarrow; Support = frq(X,Y)/N
+&rightarrow; Confidence = frq(X,Y) / frq(X)
+&rightarrow; Lift = Support / (Support(X)xSupport(Y)) 
 ## Experimental 1
 
 + Data: weather.nominal.arff 
