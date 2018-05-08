@@ -64,3 +64,5 @@ Sample belongs to cluster 1 that has 100% confidence that (100%):
 •	Fins = false
 
 &rightarrow;What rule can understand and gaining from the dataset
+
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/clusteringKmeans/100_confidence.png)
