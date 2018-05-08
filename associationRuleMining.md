@@ -64,6 +64,8 @@ Best rules found:
 
 
 ```
+Not all the right-hand side is “play” as can see the other features such as “humidity” amongst 5 rules. 
+
 + Editing metrics of Apriori
 
 * metric &rightarrow; Lift, 
@@ -80,3 +82,11 @@ The rules produced are much more diverse in nature than the ones with confidence
 J48
 
 ![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/associateRuleMining/treeView_J48.png)
+
+## Conclusion
+
++ the number of rules is the same, the rules themselves are different in some cases.
++ Different rule, for example:
+Outlook = rainy &rightarrow; windy = false &rightarrow; play = yes
+in J48 (experimental 2), but not appear in (experimental 1)
+

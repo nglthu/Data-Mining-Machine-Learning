@@ -3,7 +3,7 @@
 + Data: zoo_data
 + Goals:
 to identify some of the types of animals automatically through the use of data clustering.
-## Experimental 1
+## Algorithm
 + SimpleKMeans algorithm (Cluster tab)
 
 ```
@@ -32,7 +32,35 @@ where, ‘ci’ represents the number of data points in ith cluster.
 6) If no data point was reassigned then stop, otherwise repeat from step 3).
 
 ```
+## Expeimental 1 (Kmeans=2)
 + Result
-* the features identify which feature is able to best separate cluster 0 from cluster 1 : Hair
-* Cluster figure
-![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/clusteringKmeans/hair.png)
+The features identify which feature is able to best separate cluster 0 from cluster 1 : *Milk*
+
+Because:
+It can be segment with cluster 0 (true-true) = 100% and cluster 1 (false-false) 
+=100%
++ Milk Cluster figure
+The best is: MILK
+
+
+
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/clusteringKmeans/milk.png)
+
+## Expeimental 2 (Kmeans=4)
+
++ Cluster 0: true-true: Able to segment
++ Cluster 1, 2, 3: unable to segment
++ Result:
+
+![alt text](https://github.com/nglthu/DataMiningMachineLearning/blob/master/clusteringKmeans/Milk_K_4.png)
+
+## Expeimental 3 (Kmeans=7)
+
+Sample belongs to cluster 1 that has 100% confidence that (100%):
+
+•	Milk =false
+•	Feathers =false
+•	Toothed =false
+•	Fins = false
+
+&rightarrow;What rule can understand and gaining from the dataset
